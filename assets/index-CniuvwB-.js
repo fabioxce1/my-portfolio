@@ -75,7 +75,7 @@
           <rect class="progress-line progress-blue" pathLength="100"></rect>
         </svg>
         <div class="monitor-content">
-          <h2 class="titulo-proyectos">MIS PROYECTOS</h2>
+          <h2 class="titulo-proyectos">ALGUNOS PROYECTOS REALIZADOS</h2>
           <div class="cards-wrapper">
         <!-- Columna Izquierda -->
         <div class="column column-left">
