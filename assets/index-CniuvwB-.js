@@ -21,6 +21,7 @@
             autoplay
             shadow-intensity="1">
             
+            <!-- Hotspots distribuidos ampliamente alrededor del cuerpo -->
             <button class="hotspot" slot="hotspot-head" data-position="0 1.85 0" data-normal="0 0 1">
               <div class="hotspot-annotation">Full-Stack Laravel Developer</div>
             </button>
@@ -74,11 +75,11 @@
           <rect class="progress-line progress-blue" pathLength="100"></rect>
         </svg>
         <div class="monitor-content">
-          <h2 class="titulo-proyectos">ALGUNOS PROYECTOS REALIZADOS</h2>
+          <h2 class="titulo-proyectos">MIS PROYECTOS</h2>
           <div class="cards-wrapper">
-   
+        <!-- Columna Izquierda -->
         <div class="column column-left">
-      
+          <!-- Proyecto 1 -->
           <div class="card">
             <div class="card-image-container">
               <img class="card-image" src="./assets/img/damos-co.png" alt="damos-co">
@@ -87,7 +88,7 @@
               <h3>Damos Soluciones</h3>
             </div>
           </div>
-         
+          <!-- Proyecto 2 -->
           <div class="card">
             <div class="card-image-container">
               <img class="card-image" src="./assets/img/aplika-co.png" alt="aplika-co">
@@ -96,7 +97,7 @@
               <h3>Aplika</h3>
             </div>
           </div>
-       
+          <!-- Proyecto 3 -->
           <div class="card">
             <div class="card-image-container">
               <img class="card-image" src="./assets/img/lamantitagris-org.png" alt="lamantitagris-org">
@@ -107,9 +108,9 @@
           </div>
         </div>
         
- 
+        <!-- Columna Derecha -->
         <div class="column column-right">
-       
+          <!-- Proyecto 4 -->
           <div class="card">
             <div class="card-image-container">
               <img class="card-image" src="./assets/img/borisdepoortere.png" alt="borisdepoorterel">
@@ -118,7 +119,7 @@
               <h3>Boris de poortere</h3>
             </div>
           </div>
-        
+          <!-- Proyecto 5 -->
           <div class="card">
             <div class="card-image-container">
               <img class="card-image" src="./assets/img/josuecalderongambamd.png" alt="josuecalderongambamd">
@@ -127,6 +128,7 @@
               <h3>Josue Calderon Gambamd</h3>
             </div>
           </div>
+          <!-- Proyecto 6 -->
           <div class="card">
             <div class="card-image-container">
               <img class="card-image" src="./assets/img/regencord.png" alt="regencord">
@@ -144,6 +146,7 @@
     <div class="features-container">
       <h2 class="titulo-proyectos habilidades-title">MIS HABILIDADES</h2>
       <div class="features-text-col">
+        <!-- Elemento 1 (Desarrollo Full-Stack) -->
         <div class="feature-item color-0">
           <h2 class="feature-title">Desarrollo Full-Stack</h2>
           <p class="feature-desc">Solucionador de problemas complejos con dominio de tecnologías punteras en el ecosistema web.</p>
@@ -153,6 +156,7 @@
             <li>Arquitectura de software eficiente</li>
           </ul>
         </div>
+        <!-- Elemento 2 (Arquitectura Backend & APIs) -->
         <div class="feature-item color-1">
           <h2 class="feature-title">Backend & APIs</h2>
           <p class="feature-desc">Creación y escalado de bases de datos relacionales y conectividad mediante servicios RESTful.</p>
@@ -162,6 +166,7 @@
             <li>Integración de APIs y Endpoints</li>
           </ul>
         </div>
+        <!-- Elemento 3 (Frontend & Diseño UI) -->
         <div class="feature-item color-2">
           <h2 class="feature-title">Frontend & UI/UX</h2>
           <p class="feature-desc">Construcción de interfaces responsivas centradas en la experiencia de usuario y código mantenible.</p>
@@ -171,6 +176,7 @@
             <li>Interactividad en JavaScript Vanilla</li>
           </ul>
         </div>
+        <!-- Elemento 4 (DevOps & Control) -->
         <div class="feature-item color-3">
           <h2 class="feature-title">DevOps / CI/CD</h2>
           <p class="feature-desc">Integración continua, administración de versiones y despliegue confiable en servidores.</p>
@@ -183,6 +189,7 @@
       </div>
       
       <div class="features-visual-col">
+        <!-- El monitor / gráfico central de la parte derecha -->
         <div class="feature-monitor">
           <div class="monitor-glow"></div>
           <div class="monitor-glass">
@@ -213,15 +220,19 @@
               </code></pre>
             </div>
             
+            <!-- Graphic circular elements to match screenshot style roughly -->
             <div class="circle-graphic">
                <div class="ring outer-ring"></div>
                <div class="ring middle-ring"></div>
                <div class="ring inner-ring"></div>
                
+               <!-- Animación 1: Elementos Dinámicos (Shapes) -->
                <div class="anim-container anim-1 color-0">
                  ${Z}
                </div>
-            <div class="anim-container anim-2 color-1 active-anim">
+
+               <!-- Animación 2: Esfera SVG 3D Dibujable -->
+               <div class="anim-container anim-2 color-1 active-anim">
                  <svg class="svg-sphere" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                    <g class="sphere-paths">
                      <circle cx="100" cy="100" r="90" />
@@ -235,13 +246,14 @@
                  </svg>
                </div>
 
+               <!-- Animación 3: Cuadrícula Escalonada (Dots) -->
                <div class="anim-container anim-3 color-2">
                  <div class="grid-wrapper">
                    ${tt}
                  </div>
                </div>
 
-            
+               <!-- Animación 4: Aguja de Radar (Scroll Scrub) -->
                <div class="anim-container anim-4 color-3">
                  <div class="radar-needle"></div>
                </div>
@@ -252,16 +264,17 @@
     </div>
   </section>
 
-
+  <!-- SECCIÓN DE CONTACTO (CARPETA ANIMADA) -->
   <section class="contact-section" id="contacto">
     <div class="contact-container">
       <h2 class="titulo-proyectos contact-title">CONTACTO</h2>
       <p class="contact-subtitle">Abriendo archivo de perfil...</p>
       
       <div class="folder-wrapper">
-     
+        <!-- Parte Trasera de la carpeta -->
         <div class="folder-back"></div>
         
+        <!-- Tarjetas de Contacto Ocultas -->
         <div class="contact-cards">
           <a href="mailto:santosserranofabio@gmail.com" class="contact-card email-card" target="_blank">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
@@ -271,16 +284,17 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
             <span>LinkedIn</span>
           </a>
-          <a href="https://github.com/fabioxce1" class="contact-card github-card" target="_blank">
+          <a href="https://github.com/tuusuario" class="contact-card github-card" target="_blank">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
             <span>GitHub</span>
           </a>
-          <a href="tel:+573157097171" class="contact-card phone-card" target="_blank">
+          <a href="tel:+570000000000" class="contact-card phone-card" target="_blank">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
             <span>Teléfono</span>
           </a>
         </div>
-    
+        
+        <!-- Parte Frontal de la carpeta -->
         <div class="folder-front">
           <div class="folder-tab"></div>
           <div class="folder-label">FABIO_SANTOS_DAT</div>
