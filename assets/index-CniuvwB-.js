@@ -21,7 +21,7 @@
             autoplay
             shadow-intensity="1">
             
-            <!-- Hotspots distribuidos ampliamente alrededor del cuerpo -->
+        
             <button class="hotspot" slot="hotspot-head" data-position="0 1.85 0" data-normal="0 0 1">
               <div class="hotspot-annotation">Full-Stack Laravel Developer</div>
             </button>
@@ -77,9 +77,7 @@
         <div class="monitor-content">
           <h2 class="titulo-proyectos">MIS PROYECTOS</h2>
           <div class="cards-wrapper">
-        <!-- Columna Izquierda -->
         <div class="column column-left">
-          <!-- Proyecto 1 -->
           <div class="card">
             <div class="card-image-container">
               <img class="card-image" src="./assets/img/damos-co.png" alt="damos-co">
@@ -88,7 +86,6 @@
               <h3>Damos Soluciones</h3>
             </div>
           </div>
-          <!-- Proyecto 2 -->
           <div class="card">
             <div class="card-image-container">
               <img class="card-image" src="./assets/img/aplika-co.png" alt="aplika-co">
@@ -97,7 +94,6 @@
               <h3>Aplika</h3>
             </div>
           </div>
-          <!-- Proyecto 3 -->
           <div class="card">
             <div class="card-image-container">
               <img class="card-image" src="./assets/img/lamantitagris-org.png" alt="lamantitagris-org">
@@ -108,9 +104,7 @@
           </div>
         </div>
         
-        <!-- Columna Derecha -->
         <div class="column column-right">
-          <!-- Proyecto 4 -->
           <div class="card">
             <div class="card-image-container">
               <img class="card-image" src="./assets/img/borisdepoortere.png" alt="borisdepoorterel">
@@ -119,7 +113,6 @@
               <h3>Boris de poortere</h3>
             </div>
           </div>
-          <!-- Proyecto 5 -->
           <div class="card">
             <div class="card-image-container">
               <img class="card-image" src="./assets/img/josuecalderongambamd.png" alt="josuecalderongambamd">
@@ -128,7 +121,6 @@
               <h3>Josue Calderon Gambamd</h3>
             </div>
           </div>
-          <!-- Proyecto 6 -->
           <div class="card">
             <div class="card-image-container">
               <img class="card-image" src="./assets/img/regencord.png" alt="regencord">
@@ -146,7 +138,6 @@
     <div class="features-container">
       <h2 class="titulo-proyectos habilidades-title">MIS HABILIDADES</h2>
       <div class="features-text-col">
-        <!-- Elemento 1 (Desarrollo Full-Stack) -->
         <div class="feature-item color-0">
           <h2 class="feature-title">Desarrollo Full-Stack</h2>
           <p class="feature-desc">Solucionador de problemas complejos con dominio de tecnologías punteras en el ecosistema web.</p>
@@ -156,7 +147,6 @@
             <li>Arquitectura de software eficiente</li>
           </ul>
         </div>
-        <!-- Elemento 2 (Arquitectura Backend & APIs) -->
         <div class="feature-item color-1">
           <h2 class="feature-title">Backend & APIs</h2>
           <p class="feature-desc">Creación y escalado de bases de datos relacionales y conectividad mediante servicios RESTful.</p>
@@ -166,7 +156,6 @@
             <li>Integración de APIs y Endpoints</li>
           </ul>
         </div>
-        <!-- Elemento 3 (Frontend & Diseño UI) -->
         <div class="feature-item color-2">
           <h2 class="feature-title">Frontend & UI/UX</h2>
           <p class="feature-desc">Construcción de interfaces responsivas centradas en la experiencia de usuario y código mantenible.</p>
@@ -176,7 +165,6 @@
             <li>Interactividad en JavaScript Vanilla</li>
           </ul>
         </div>
-        <!-- Elemento 4 (DevOps & Control) -->
         <div class="feature-item color-3">
           <h2 class="feature-title">DevOps / CI/CD</h2>
           <p class="feature-desc">Integración continua, administración de versiones y despliegue confiable en servidores.</p>
@@ -189,7 +177,6 @@
       </div>
       
       <div class="features-visual-col">
-        <!-- El monitor / gráfico central de la parte derecha -->
         <div class="feature-monitor">
           <div class="monitor-glow"></div>
           <div class="monitor-glass">
@@ -219,19 +206,15 @@
 };
               </code></pre>
             </div>
-            
-            <!-- Graphic circular elements to match screenshot style roughly -->
+
             <div class="circle-graphic">
                <div class="ring outer-ring"></div>
                <div class="ring middle-ring"></div>
                <div class="ring inner-ring"></div>
-               
-               <!-- Animación 1: Elementos Dinámicos (Shapes) -->
                <div class="anim-container anim-1 color-0">
                  ${Z}
                </div>
 
-               <!-- Animación 2: Esfera SVG 3D Dibujable -->
                <div class="anim-container anim-2 color-1 active-anim">
                  <svg class="svg-sphere" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                    <g class="sphere-paths">
@@ -246,14 +229,13 @@
                  </svg>
                </div>
 
-               <!-- Animación 3: Cuadrícula Escalonada (Dots) -->
+    
                <div class="anim-container anim-3 color-2">
                  <div class="grid-wrapper">
                    ${tt}
                  </div>
                </div>
 
-               <!-- Animación 4: Aguja de Radar (Scroll Scrub) -->
                <div class="anim-container anim-4 color-3">
                  <div class="radar-needle"></div>
                </div>
@@ -264,17 +246,15 @@
     </div>
   </section>
 
-  <!-- SECCIÓN DE CONTACTO (CARPETA ANIMADA) -->
   <section class="contact-section" id="contacto">
     <div class="contact-container">
       <h2 class="titulo-proyectos contact-title">CONTACTO</h2>
       <p class="contact-subtitle">Abriendo archivo de perfil...</p>
       
       <div class="folder-wrapper">
-        <!-- Parte Trasera de la carpeta -->
         <div class="folder-back"></div>
         
-        <!-- Tarjetas de Contacto Ocultas -->
+
         <div class="contact-cards">
           <a href="mailto:santosserranofabio@gmail.com" class="contact-card email-card" target="_blank">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
@@ -294,7 +274,7 @@
           </a>
         </div>
         
-        <!-- Parte Frontal de la carpeta -->
+  
         <div class="folder-front">
           <div class="folder-tab"></div>
           <div class="folder-label">FABIO_SANTOS_DAT</div>
